@@ -1,0 +1,40 @@
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+h1{color:purple}
+
+.bodyimg{
+    position:relative;
+}
+
+.bodyimg p{
+    color:#f7f2f2;
+    font-size:55px;
+    font-family: arial;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.origami:hover{
+    transform:scale(1.2);
+    opacity:1;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
